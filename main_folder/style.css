@@ -11,28 +11,21 @@ html, body{
 }
 
 .img-background{
-    width: 100%;
-    height: fit-content;
+    margin-left: 25%;
+    width: 50%;
+    align-self: auto;
+    margin-top: 15%;
+    float: left;
 }
 
-h1{
-    width: 100%;
-    margin-top: 15%;
-    position: relative;
-    font-size: 8vw;
-    font-weight: bold;
-    text-align: center;
-    color: green;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 5px;
-}
 
 #clock{
     width: 100%;
     position: absolute;
     font-size: 9vw;
-    color: red;
+    font-weight: bold;
+    color:black;
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    margin-top: 25%;
+    margin-top: 5%;
 }
