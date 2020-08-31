@@ -23,19 +23,33 @@ html, body{
 }
 
 .img-background{
-    z-index: 1;
+    z-index: -1;
     width: 10%;
     position: fixed;
     top: 0;
+    border-radius: 50%;
+    
     
 }
+
+.transparent-button{
+    z-index: 2;
+    padding: 4.5%;
+    height: 4.5%;
+    border: none;
+    position: fixed;
+    top: 0;
+    background-color: Transparent;
+    cursor:pointer;
+    outline:transparent;
+  }
 
 .moving-background{
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 1;
     position: absolute;
-    animation: fadeOut ease 10s;
+    animation: fadeOut ease 6s;
    opacity: 0.1;
 }
 @keyframes fadeOut {
