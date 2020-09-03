@@ -19,7 +19,7 @@ html, body{
      text-align: center;
     font-family: 'Roboto',sans-serif;
     margin-top: 5%;
-   
+    display: grid;
 }
 
 .img-logo{

@@ -13,7 +13,7 @@ function realtimeClock(){
     minutes = ("0" + minutes).slice(-2);
     seconds = ("0" + seconds).slice(-2);
 
-    document.getElementById('clock').innerHTML =
-    hours + " : " + minutes + " : " +seconds + " " + amPm;
+    document.getElementById('clock_box').innerHTML =
+    hours + " : " + minutes + " : " + seconds + " " + amPm;
     var t = setTimeout(realtimeClock, 500);
 }

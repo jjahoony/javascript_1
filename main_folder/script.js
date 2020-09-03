@@ -14,6 +14,6 @@ function realtimeClock(){
     seconds = ("0" + seconds).slice(-2);
 
     document.getElementById('clock').innerHTML =
-    hours + " : " + minutes + " : " +seconds + " " + amPm;
+    hours + " : " + minutes + " : " + seconds + " " + amPm;
     var t = setTimeout(realtimeClock, 500);
 }
