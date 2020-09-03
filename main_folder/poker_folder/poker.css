@@ -19,10 +19,10 @@ html, body{
      text-align: center;
     font-family: 'Roboto',sans-serif;
     margin-top: 5%;
-    margin-right: 5%;
+   
 }
 
-.img-background{
+.img-logo{
     z-index: -1;
     width: 10%;
     position: fixed;
@@ -49,8 +49,9 @@ html, body{
     height: 100%;
     z-index: 1;
     position: absolute;
-    animation: fadeOut ease 6s;
+    animation: fadeOut ease 5s;
    opacity: 0.1;
+   -webkit-user-drag: none;
 }
 @keyframes fadeOut {
     0% {opacity:1;}
