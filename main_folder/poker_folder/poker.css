@@ -11,15 +11,14 @@ html, body{
 }
 
 #clock_box{
-    width: 20%;
-    position: fixed;
-    font-size: 9vw;
+    width: 22%;
+    position: absolute;
+    font-size: 3vw;
     font-weight: bold;
     color:black;
-     text-align: center;
     font-family: 'Roboto',sans-serif;
-    margin-top: 5%;
-    display: grid;
+    margin-top: 3%;
+    right: 3px;
 }
 
 .img-logo{

@@ -43,11 +43,15 @@ html, body{
     z-index: 1;
     position: absolute;
     animation: fadeOut ease 5s;
-   opacity: 0.1;
-   
+    opacity: 0.1;
    -webkit-user-drag: none;
 }
 @keyframes fadeOut {
     0% {opacity:1;}
     100% {opacity:0.1;}
+  }
+
+  .poker-button{
+      position: absolute;
+      color: blue;
   }
