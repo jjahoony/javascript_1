@@ -20,7 +20,7 @@ html, body{
     margin-left: 25%;
     width: 50%;
     align-self: auto;
-    margin-top: 15%;
+    margin-top: 55%;
     float: left;
 }
 
@@ -33,7 +33,7 @@ html, body{
     color:black;
     text-align: center;
     font-family: 'Roboto',sans-serif;
-    margin-top: 5%;
+    margin-top: 42%;
     
 }
 
@@ -51,7 +51,62 @@ html, body{
     100% {opacity:0.1;}
   }
 
-  .poker-button{
-      position: absolute;
-      color: blue;
+.nav-bar{
+    position: absolute;
+    font-size: 3vw;
+    list-style-type: none;
+    background-color: rgb(224, 220, 220);
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    font-weight: bold;
+    color: violet;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.5s, padding 0.5s;
+}
+
+li a:hover{
+    background-color: thistle;
+    color: wheat;
+}
+
+li a.home{
+    background-color: rgb(161, 205, 241);
+    color: violet;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.poker-content{
+    display: none;
+    position: absolute;
+    background-color: #e0f8ff;
+    box-shadow: 0px 2vw 3vw 0px rgba(0,0,0,0.35);
+    z-index: 5;
+}
+
+.poker-content a {
+    color: violet;
+    padding: 2vw 3vw;
+    text-decoration: none;
+    display: block;
+  }
+
+.poker-content a:hover {background-color: rgb(250, 244, 195);
+    color: lightgreen;
+}
+
+.dropdown:hover .poker-content {
+    display: block;
   }
