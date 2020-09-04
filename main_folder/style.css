@@ -22,6 +22,7 @@ html, body{
     align-self: auto;
     margin-top: 55%;
     float: left;
+    z-index: -2;
 }
 
 
@@ -52,12 +53,14 @@ html, body{
   }
 
 .nav-bar{
+    border-radius: 20px;
     position: absolute;
     font-size: 3vw;
     list-style-type: none;
-    background-color: rgb(224, 220, 220);
+    background-image: linear-gradient(to right,rgb(231, 228, 228),rgb(178, 250, 178));
     margin: 0;
     padding: 0;
+    box-shadow: 0px 2vw 3vw 0px rgba(0,0,0,0.35);
     z-index: 3;
 }
 
@@ -65,7 +68,9 @@ li{
     float: left;
 }
 
-li a, .dropbtn{
+li a, .dropbtn,.dropbtn1,.dropbtn2,.dropbtn3{
+    
+    padding: 3.8vw;
     font-weight: bold;
     color: violet;
     text-align: center;
@@ -75,20 +80,22 @@ li a, .dropbtn{
 }
 
 li a:hover{
+    border-radius: 20px;
     background-color: thistle;
     color: wheat;
 }
 
 li a.home{
-    background-color: rgb(161, 205, 241);
+    background-image: linear-gradient(to left,rgb(231, 228, 228),rgb(161, 205, 241));
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
     color: violet;
 }
 
-li.dropdown{
-    display: inline-block;
-}
 
-.poker-content{
+
+.poker-content,.macro-content,.app-content,.str-content{
+    border-radius: 20px;
     display: none;
     position: absolute;
     background-color: #e0f8ff;
@@ -96,8 +103,8 @@ li.dropdown{
     z-index: 5;
 }
 
-.poker-content a {
-    color: violet;
+.poker-content a,.macro-content a,.app-content a,.str-content a{
+    border-radius: 20px;
     padding: 2vw 3vw;
     text-decoration: none;
     display: block;
@@ -107,6 +114,30 @@ li.dropdown{
     color: lightgreen;
 }
 
-.dropdown:hover .poker-content {
+.macro-content a:hover {background-color: rgb(250, 244, 195);
+    color: lightgreen;
+}
+
+.app-content a:hover {background-color: rgb(250, 244, 195);
+    color: lightgreen;
+}
+
+.str-content a:hover {background-color: rgb(250, 244, 195);
+    color: lightgreen;
+}
+
+.dropdown:hover .poker-content{
     display: block;
-  }
+}
+
+.dropdown1:hover .macro-content{
+    display: block;
+}
+
+.dropdown2:hover .app-content{
+    display: block;
+}
+
+.dropdown3:hover .str-content{
+    display: block;
+}
