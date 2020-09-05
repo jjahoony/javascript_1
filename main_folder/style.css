@@ -13,6 +13,13 @@
     }
 }
 
+@media screen and (max-width: 550px){
+    p {
+      display: none;
+      
+    }
+}
+
 html, body{
     margin: 0;
     width: 100%;
