@@ -1,7 +1,21 @@
+@media screen and (min-width: 551px){
+    div {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 551px){
+    body {
+      color: black;
+      background-color: tomato;
+      text-align: center;
+      
+    }
+}
+
 html, body{
     margin: 0;
     width: 100%;
-
 }
 
 .main-container{

@@ -12,7 +12,7 @@ html, body{
 
 #clock_box{
     width: 22%;
-    position: absolute;
+    position: fixed;
     font-size: 3vw;
     font-weight: bold;
     color:black;
